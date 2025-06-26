@@ -1,4 +1,4 @@
- const restaurantsmenu=[
+const menu=[
   {
     "id": "1",
     "name": "Spice Junction",
