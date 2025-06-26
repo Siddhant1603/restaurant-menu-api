@@ -1,0 +1,433 @@
+const restaurantmenu=[
+  {
+      "id": "1",
+      "name": "Spice Junction",
+      "cuisines": ["Indian", "Biryani"],
+      "image": "spice-junction.jpg",
+      "description": "Authentic Indian spices and flavorful biryanis.",
+      "averagePrice": 250,
+      "menu": [
+        {
+          "name": "Chicken Biryani",
+          "description": "Fragrant rice with spicy chicken.",
+          "price": 199,
+          "image": "chicken-biryani.jpg"
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "description": "Cottage cheese in rich tomato gravy.",
+          "price": 180,
+          "image": "paneer-butter.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Burger Hub",
+      "cuisines": ["American", "Fast Food"],
+      "image": "burger-hub.jpg",
+      "description": "Delicious burgers and quick bites.",
+      "averagePrice": 150,
+      "menu": [
+        {
+          "name": "Cheese Burger",
+          "description": "Juicy patty with melted cheese.",
+          "price": 120,
+          "image": "cheese-burger.jpg"
+        },
+        {
+          "name": "Veggie Wrap",
+          "description": "Loaded with fresh veggies and sauces.",
+          "price": 90,
+          "image": "veggie-wrap.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pasta Paradise",
+      "cuisines": ["Italian"],
+      "image": "pasta-paradise.jpg",
+      "description": "Heaven for pasta lovers.",
+      "averagePrice": 300,
+      "menu": [
+        {
+          "name": "White Sauce Pasta",
+          "description": "Creamy and cheesy white sauce pasta.",
+          "price": 220,
+          "image": "white-sauce-pasta.jpg"
+        },
+        {
+          "name": "Red Sauce Pasta",
+          "description": "Tangy tomato-based pasta with herbs.",
+          "price": 200,
+          "image": "red-sauce-pasta.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Tandoori Tadka",
+      "cuisines": ["North Indian", "Tandoori"],
+      "image": "tandoori-tadka.jpg",
+      "description": "Specialty tandoori and kebabs.",
+      "averagePrice": 350,
+      "menu": [
+        {
+          "name": "Tandoori Chicken",
+          "description": "Grilled chicken with smoky flavor.",
+          "price": 280,
+          "image": "tandoori-chicken.jpg"
+        },
+        {
+          "name": "Malai Tikka",
+          "description": "Creamy grilled chicken pieces.",
+          "price": 300,
+          "image": "malai-tikka.jpg"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Healthy Bowl",
+      "cuisines": ["Salads", "Healthy Food"],
+      "image": "healthy-bowl.jpg",
+      "description": "Nutritious and wholesome meals.",
+      "averagePrice": 200,
+      "menu": [
+        {
+          "name": "Quinoa Salad",
+          "description": "Fresh veggies with quinoa and lemon dressing.",
+          "price": 180,
+          "image": "quinoa-salad.jpg"
+        },
+        {
+          "name": "Grilled Paneer Bowl",
+          "description": "Paneer with grilled veggies and hummus.",
+          "price": 200,
+          "image": "grilled-paneer.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Chaat Street",
+      "cuisines": ["Street Food", "Snacks"],
+      "image": "chaat-street.jpg",
+      "description": "Spicy and tangy Indian chaat items.",
+      "averagePrice": 100,
+      "menu": [
+        {
+          "name": "Pani Puri",
+          "description": "Crispy puris with tangy water.",
+          "price": 40,
+          "image": "pani-puri.jpg"
+        },
+        {
+          "name": "Dahi Puri",
+          "description": "Curd-based chaat with sev.",
+          "price": 50,
+          "image": "dahi-puri.jpg"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Sushi Stop",
+      "cuisines": ["Japanese"],
+      "image": "sushi-stop.jpg",
+      "description": "Fresh sushi and sashimi.",
+      "averagePrice": 500,
+      "menu": [
+        {
+          "name": "California Roll",
+          "description": "Crab, avocado, and cucumber roll.",
+          "price": 450,
+          "image": "california-roll.jpg"
+        },
+        {
+          "name": "Tuna Nigiri",
+          "description": "Slices of tuna over rice.",
+          "price": 480,
+          "image": "tuna-nigiri.jpg"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Chinese Corner",
+      "cuisines": ["Chinese"],
+      "image": "chinese-corner.jpg",
+      "description": "Spicy Chinese noodles and rice.",
+      "averagePrice": 180,
+      "menu": [
+        {
+          "name": "Hakka Noodles",
+          "description": "Stir-fried noodles with veggies.",
+          "price": 160,
+          "image": "hakka-noodles.jpg"
+        },
+        {
+          "name": "Chilli Paneer",
+          "description": "Paneer tossed in spicy sauce.",
+          "price": 190,
+          "image": "chilli-paneer.jpg"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The Breakfast Club",
+      "cuisines": ["Breakfast", "Continental"],
+      "image": "breakfast-club.jpg",
+      "description": "All-day breakfast options.",
+      "averagePrice": 220,
+      "menu": [
+        {
+          "name": "Pancakes",
+          "description": "Served with maple syrup.",
+          "price": 150,
+          "image": "pancakes.jpg"
+        },
+        {
+          "name": "Omelette",
+          "description": "Stuffed with cheese and veggies.",
+          "price": 120,
+          "image": "omelette.jpg"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Pizza Planet",
+      "cuisines": ["Italian", "Fast Food"],
+      "image": "pizza-planet.jpg",
+      "description": "Wood-fired pizzas and sides.",
+      "averagePrice": 350,
+      "menu": [
+        {
+          "name": "Margherita Pizza",
+          "description": "Classic cheese and tomato.",
+          "price": 300,
+          "image": "margherita.jpg"
+        },
+        {
+          "name": "Farmhouse Pizza",
+          "description": "Loaded with veggies.",
+          "price": 350,
+          "image": "farmhouse.jpg"
+        }
+      ]
+    },
+
+{
+    "id": 1,
+    "name": "Spice Villa",
+    "cuisines": ["Indian", "Chinese"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Delicious Indian and Chinese food.",
+    "menu": [
+      {
+        "name": "Paneer Butter Masala",
+        "description": "Creamy paneer in rich tomato gravy",
+        "price": 250,
+        "imageId": "paneer1.jpg"
+      },
+      {
+        "name": "Veg Hakka Noodles",
+        "description": "Spicy noodles tossed with veggies",
+        "price": 180,
+        "imageId": "hakka1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Burger Corner",
+    "cuisines": ["Fast Food", "Burgers"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Crispy and juicy burgers.",
+    "menu": [
+      {
+        "name": "Cheese Burger",
+        "description": "Loaded with cheddar and lettuce",
+        "price": 150,
+        "imageId": "burger1.jpg"
+      },
+      {
+        "name": "Double Patty Burger",
+        "description": "Two patties, double the taste",
+        "price": 220,
+        "imageId": "burger2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pizza Hub",
+    "cuisines": ["Italian", "Pizza"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Authentic cheesy pizzas.",
+    "menu": [
+      {
+        "name": "Margherita Pizza",
+        "description": "Classic cheese and tomato base",
+        "price": 299,
+        "imageId": "pizza1.jpg"
+      },
+      {
+        "name": "Farmhouse Pizza",
+        "description": "Loaded with veggies",
+        "price": 349,
+        "imageId": "pizza2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Wrap & Roll",
+    "cuisines": ["Wraps", "Street Food"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Freshly rolled wraps and rolls.",
+    "menu": [
+      {
+        "name": "Paneer Tikka Wrap",
+        "description": "Paneer tikka stuffed in paratha",
+        "price": 199,
+        "imageId": "wrap1.jpg"
+      },
+      {
+        "name": "Chicken Kathi Roll",
+        "description": "Grilled chicken with sauces",
+        "price": 220,
+        "imageId": "wrap2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Biryani Blues",
+    "cuisines": ["Biryani", "Hyderabadi"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Authentic Hyderabadi biryani.",
+    "menu": [
+      {
+        "name": "Chicken Biryani",
+        "description": "Spiced rice with chicken pieces",
+        "price": 280,
+        "imageId": "biryani1.jpg"
+      },
+      {
+        "name": "Veg Dum Biryani",
+        "description": "Biryani cooked with vegetables",
+        "price": 230,
+        "imageId": "biryani2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "South Feast",
+    "cuisines": ["South Indian"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Dosas, Idlis and more.",
+    "menu": [
+      {
+        "name": "Masala Dosa",
+        "description": "Crispy dosa with potato filling",
+        "price": 120,
+        "imageId": "dosa1.jpg"
+      },
+      {
+        "name": "Idli Vada Combo",
+        "description": "Soft idlis with crunchy vadas",
+        "price": 100,
+        "imageId": "idlivada1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "North Feast",
+    "cuisines": ["North Indian", "Thali"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Full north Indian thali options.",
+    "menu": [
+      {
+        "name": "Special Veg Thali",
+        "description": "Includes 2 sabzis, dal, rice & roti",
+        "price": 180,
+        "imageId": "thali1.jpg"
+      },
+      {
+        "name": "Rajma Chawal",
+        "description": "Comfort food with rajma & rice",
+        "price": 130,
+        "imageId": "rajma1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tandoori Nights",
+    "cuisines": ["Tandoor", "Grill"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Smoky grilled food specials.",
+    "menu": [
+      {
+        "name": "Chicken Tandoori",
+        "description": "Grilled in tandoor with spices",
+        "price": 270,
+        "imageId": "tandoori1.jpg"
+      },
+      {
+        "name": "Paneer Tikka",
+        "description": "Cubes of paneer marinated & grilled",
+        "price": 220,
+        "imageId": "tikka1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dessert Point",
+    "cuisines": ["Desserts", "Beverages"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Sweet treats and coolers.",
+    "menu": [
+      {
+        "name": "Chocolate Brownie",
+        "description": "Gooey chocolate brownie",
+        "price": 99,
+        "imageId": "brownie1.jpg"
+      },
+      {
+        "name": "Cold Coffee",
+        "description": "Iced coffee with cream",
+        "price": 90,
+        "imageId": "coffee1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Momolicious",
+    "cuisines": ["Tibetan", "Street Food"],
+    "image": "https://via.placeholder.com/150",
+    "description": "Hot and spicy momos.",
+    "menu": [
+      {
+        "name": "Chicken Momos",
+        "description": "Juicy momos with chutney",
+        "price": 130,
+        "imageId": "momos1.jpg"
+      },
+      {
+        "name": "Fried Veg Momos",
+        "description": "Crunchy and spicy veg momos",
+        "price": 110,
+        "imageId": "momos2.jpg"
+      }
+    ]
+  }
+]
